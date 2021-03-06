@@ -7,7 +7,7 @@
     <title>Contenido</title>
 
     <link rel="stylesheet" href="css/globalSettings.css">
-    <link rel="stylesheet" href="css/content_view.css">
+    <link rel="stylesheet" href="css/content.css">
 </head>
 <body>
     <div class="content">

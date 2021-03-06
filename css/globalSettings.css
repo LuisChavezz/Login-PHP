@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* Margenes y bordes */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Border-Box Config */
+html {
+  box-sizing: border-box;
+  }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Background */
+body{
+  background: url(../img/backg.jpg);
+  background-size: cover;
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
 
-    <link rel="stylesheet" href="css/globalSettings.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/register.css">
 
     <script src="https://kit.fontawesome.com/87f377c3df.js" crossorigin="anonymous"></script>

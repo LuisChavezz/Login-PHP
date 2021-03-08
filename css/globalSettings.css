@@ -16,6 +16,7 @@ html {
 
 /* Background */
 body{
-  background: url(../img/backg.jpg);
+  background: url(../img/backg.jpg) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }

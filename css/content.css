@@ -1,8 +1,6 @@
 .content{
-    /*border: solid 1px white;*/
-
     width: 40%;
-    margin: 150px auto;
+    margin: 100px auto;
     padding: 2rem;
     
     text-align: center;
@@ -23,7 +21,6 @@
 .content a{
     text-decoration: none;
     color: white;
-    text-align: right;
     background-color: rgb(252, 156, 84);
     padding: 0.5rem;
     border-radius: 25px;

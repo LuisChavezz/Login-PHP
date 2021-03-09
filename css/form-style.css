@@ -1,0 +1,44 @@
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+}
+
+.fas{
+    font-size: 1.4em;
+    margin-right: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    width: 50%;
+    height: 30px;
+    padding: 0px 8px;
+
+    font-size: 1em;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+}
+
+button{
+    color: white;
+    background-color: rgb(252, 156, 84);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(253, 94, 83);
+    transition: 0.4s;
+}

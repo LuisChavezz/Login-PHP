@@ -7,6 +7,7 @@
     <title>Login</title>
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form-style.css">
     <link rel="stylesheet" href="css/login.css">
 
     <script src="https://kit.fontawesome.com/87f377c3df.js" crossorigin="anonymous"></script>
@@ -26,10 +27,10 @@
                 <input type="password" name="password" placeholder="Password"/>
             </div>
 
-            <button onclick="login.submit()">Registrarse</button>
+            <button onclick="login.submit()">Iniciar Sesión</button>
         </form>
 
-        <p>¿Aun no tienes una cuenta? <a href="login.php">Regístrate aquí</a></p>
+        <p>¿Aun no tienes una cuenta? <a href="register.php">Regístrate aquí</a></p>
     </div>
 </body>
 </html>

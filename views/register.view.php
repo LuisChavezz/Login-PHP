@@ -16,7 +16,7 @@
     <div class="content">
         <h1>Regístrate</h1>
 
-        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="formulario" name="login" autocomplete="off">
+        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" name="login" autocomplete="off">
             <div class="form-group">
                 <i class="fas fa-user"></i>
                 <input type="text" name="user" placeholder="User"/>
@@ -33,6 +33,12 @@
             </div>
 
             <button onclick="login.submit()">Registrarse</button>
+
+            <?php if (!empty($errores)) : ?>
+                <div class="error">
+                    <?php echo $errores; ?>
+                </div>
+            <?php endif; ?>
         </form>
 
         <p>¿Ya tienes cuenta? <a href="login.php">Iniciar sesión</a></p>

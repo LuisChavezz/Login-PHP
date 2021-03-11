@@ -29,6 +29,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($result != false) { //Sí el usuario existe
             $errores .= '<li>Ya existe éste usuario.</li>';
         }
+
+        $password = hash('sha512', $password);
+        $password2 = hash('sha512', $password2);
+
+        if ($password != $password2) {
+            $errores .= '<li>Las contraseñas deben coincidir.</li>';
+        }
+    }
+
+    if ($errores == '') {
+        $statement = $conexion -> prepare('INSERT INTO users (id, user, password) VALUES (null, ?, ?)');
+        $statement -> execute([$user, $password]);
+
+        header('Location: login.php');
     }
 }
 

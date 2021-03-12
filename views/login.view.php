@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/form-style.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/error.css">
 
     <script src="https://kit.fontawesome.com/87f377c3df.js" crossorigin="anonymous"></script>
 </head>
@@ -28,6 +29,12 @@
             </div>
 
             <button onclick="login.submit()">Iniciar Sesión</button>
+
+            <?php if (!empty($errores)) : ?>
+                <div class="error">
+                    <?php echo $errores; ?>
+                </div>
+            <?php endif; ?>
         </form>
 
         <p>¿Aun no tienes una cuenta? <a href="register.php">Regístrate aquí</a></p>

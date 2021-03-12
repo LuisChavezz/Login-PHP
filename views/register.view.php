@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/form-style.css">
     <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/error.css">
 
     <script src="https://kit.fontawesome.com/87f377c3df.js" crossorigin="anonymous"></script>
 </head>
